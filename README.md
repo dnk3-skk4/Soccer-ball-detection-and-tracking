@@ -17,7 +17,7 @@ net = cv2.dnn.readNetFromDarknet(y3_config_path, y3_weights_path)
 
 ```
 
-Note that the Yolov3 weights file exceeds that 25mb limit of github. If you wish to clone this repository, you will need to obtain a copy of the yolov3 weights file, name it 'yolov3.weights' and store it inside that data folder
+Note: Both 'yoloc3.weights' and 'soccer-ball.mp4' exceed github's 
 
 ```
 

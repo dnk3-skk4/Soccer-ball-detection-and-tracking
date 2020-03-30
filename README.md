@@ -17,7 +17,7 @@ net = cv2.dnn.readNetFromDarknet(y3_config_path, y3_weights_path)
 
 ```
 
-Note: Both 'yoloc3.weights' and 'soccer-ball.mp4' exceed github's 
+Note: 'yolov3.weights' exceed github's storage limit. The notebook will not execute without it. A copy needs to be obtained from https://pjreddie.com/darknet/yolo/ or other sources.
 
 ```
 

@@ -26,3 +26,14 @@ Note: 'yolov3.weights' exceed github's storage limit. The notebook will not exec
 1. In the very first frame and only in the very first frame(done by choice), the user selects a region of interest, the ball in the picture. A tracking algorithm then initializes using ```bounding box``` set by the user and subsequently ```tracks``` the highlighted region for a set number of frames.
 2. Every ```Nth frame``` afterwards, the detector tries to detect the ball. If the center of the tracker's bounding box, falls outside the detector's bounding box, the tracker resets to the detector's bounding box.
 3. While the ball is tracking, the tracker's name is displayed at the bottom left. If the detector ```fails to detect twice```, it the bottom right displays ```No objects detected``` instead.
+
+# Sample
+
+Snippet of the user selecting the ROI in the first frame
+![](images/BG_change.png)
+
+Snippet of tracker changing
+![](images/Tracker_change.png)
+
+Long clip sample
+![](images/run.png)

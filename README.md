@@ -40,6 +40,6 @@ Snippet of tracker changing
 
 ![](images/Tracker_change.png)
 
-Long clip sample
+Long clip sample. using MedianFlow for faster video read
 
 ![](images/run.png)

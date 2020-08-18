@@ -1,6 +1,23 @@
 # Soccer-ball-detection-and-tracking
 A detection and tracking implementation using YOLOv3 detection and tracking using various tracking methods available in OpenCV.
 
+files required:
+- coco.names
+```
+# run
+wget https://github.com/pjreddie/darknet/tree/master/data/coco.names
+```
+- yolov3.cfg
+```
+# run
+wget https://github.com/pjreddie/darknet/blob/master/cfg/yolov3.cfg
+```
+- yolov3.weights
+```
+# run this to get the yolov3 weights. It's a 200+MB file
+wget https://pjreddie.com/media/files/yolov3.weights
+```
+
 I used a pre-trained yolov3 neural net by acquiring ```coco.names```, ```yolov3.cfg```, and ```yolov3.weights``` files and loaded the network using the following line of code:
 ```
 y3_weights_path = './data/yolov3.weights'
